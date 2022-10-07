@@ -1,13 +1,13 @@
 [
-    {"id":1,"idCat":1 ,"nombre":"Corona","contenido":410,"precio":100 ,"stock":20},
+    {"id":1,"idCat":"cervezas" ,"nombre":"Corona","contenido":410,"precio":100 ,"stock":20},
 
-    {"id":2,"idCat":1 ,"nombre":"Patagonia","contenido":410,"precio":100 ,"stock":35},
+    {"id":2,"idCat":"cervezas" ,"nombre":"Patagonia","contenido":410,"precio":100 ,"stock":35},
 
-    {"id":3,"idCat":2 ,"nombre":"Vino Tinto","contenido":750,"precio":100 ,"stock":30},
+    {"id":3,"idCat":"vinos" ,"nombre":"Vino Tinto","contenido":750,"precio":100 ,"stock":30},
 
-    {"id":4,"idCat":2 ,"nombre":"Vino Blanco","contenido":750,"precio":100 ,"stock":30},
+    {"id":4,"idCat":"vinos" ,"nombre":"Vino Blanco","contenido":750,"precio":100 ,"stock":30},
 
-    {"id":5,"idCat":3 ,"nombre":"Fernet","contenido":750,"precio":100 ,"stock":25},
+    {"id":5,"idCat":"fernet" ,"nombre":"Fernet","contenido":750,"precio":100 ,"stock":25},
     
-    {"id":6,"idCat":4 ,"nombre":"Whisky","contenido":750,"precio":100 ,"stock":15}
+    {"id":6,"idCat":"whiskys" ,"nombre":"Whisky","contenido":750,"precio":100 ,"stock":15}
 ]

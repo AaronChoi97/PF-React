@@ -7,7 +7,7 @@ const Home = () => {
     const [prod, setProd] = useState([]);
     useEffect(()=>{
         
-        consultarProd().then(prod=> {
+        consultarProd('../json/data.json').then(prod=> {
             const cardProd = prod.map(producto =>
                 <div className="card cardProducto" key={producto.id} style={{width: '18rem'}}>
                     <img className="card-img-top" src="..." alt="Card image cap" />

@@ -3,14 +3,14 @@ import { useParams } from 'react-router-dom';
 import Itemdetailcontainer from './itemdetailcontainer';
 
 const Itemlistcontainer = () => {
-    const [prod, setprod] = useState([]);
+    const [prod, setProd] = useState([]);
     const {id} = useParams()
     useEffect(()=>{
         fetch('../json/data.json')
         .then(resp => resp.json())
         .then(producto => {
             const prod1 = producto.find(proArray => proArray.id == id)
-            setprod(prod1)
+            setProd(prod1)
         })
     }, [])
     return (

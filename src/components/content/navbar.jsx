@@ -5,6 +5,7 @@ import Secciones from '../layouts/secciones';
 import Dropdown from '../layouts/dropdown';
 
 const Navbar = () => {
+    const listaDropdown = ['Cervezas', 'Vinos', 'Fernet', 'Whiskys']
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -13,7 +14,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarColor01">
                         <ul className="navbar-nav me-auto">
                             <Secciones/>
-                            <Dropdown/>
+                            <Dropdown lista={listaDropdown}/>
                         </ul>
                         <Link className="nav-link btn btn-secondary" to={'/carrito'}><i className="bi bi-cart2"></i></Link>
                     </div>
